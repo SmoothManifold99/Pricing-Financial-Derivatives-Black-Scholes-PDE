@@ -10,6 +10,6 @@ $$u(x,0)=u_0(x)\hspace{0.5cm}u(x,\tau)\sim u_{-\infty}(x,\tau)\hspace{0.5cm}u(x,
 
 Using the finite distance-approximation, one can show that the first equation becomes
 
-$$u_{n}^{m+1}=\alpha u_{n+1}^{m}+(1-2\alpha)u_{n}^{m}+\alpha u_{m}^{n-1}\hspace{0.5cm}where\hspace{0.5cm}\alpha\equiv\frac{δ \tau}{(δ x)^2}\hspace{0.5cm}and\hspace{0.5cm}u_{n}^{m}(x,\tau)\equiv u(nx,m\tau).$$
+$$u_{n}^{m+1}=\alpha u_{n+1}^{m}+(1-2\alpha)u_{n}^{m}+\alpha u^{m}_{n-1}\hspace{0.5cm}where\hspace{0.5cm}\alpha\equiv\frac{δ \tau}{(δ x)^2}\hspace{0.5cm}and\hspace{0.5cm}u_{n}^{m}(x,\tau)\equiv u(nx,m\tau).$$
 
 In this file there is a program which iteratively solve this equation.
