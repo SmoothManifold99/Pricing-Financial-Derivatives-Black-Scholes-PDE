@@ -1,1 +1,22 @@
+explicit_fd(values, dx, dt, M, Nplus, Nminus)
+{
+	a=dt/(dx*dx);
+	for(n=Nminus; n<=Nplus; ++n);
+	 old_u[n]=pay_off(n*dx)
+	for( m=1; m<=M; ++m )
+	{
+	 tau=m*dt;
+	
+	 newu[Nminus]=u_m_inf( Nminus*dx, tau );
+	 newu[Nplus]=u_p_inf(Nplus*dx, tau);
+	
+	 for( n=Nminus+1; n<=Nplus; ++n)
+    newu[n]=oldu[n]+a*(old[n-1]-2oldu[n]+oldu[n+1]);
 
+   for( n=Nminus; n<=Nplus; ++n)
+    oldu[n]=newu[n]
+	 }
+for( n=Nminus; n<=Nplus; ++n)
+ values[n]=oldu[n];
+
+}
