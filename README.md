@@ -1,6 +1,6 @@
 This simple program is aimed to apply the finite distance approximation to the solution of the diffusion equation, useful for the solution of options' value.
 ## Finite distance approxiamtion
-Suppose that we want to solve the diffusion equation
+Suppose that we want to solve the diffusion equation ($u$ here representing for example the temperature in a long, thin and uniform bar of metal as function of space and time)
 
 $$\frac{∂ u}{∂\tau}=\frac{∂^2 u}{∂ x^2},$$
 
