@@ -2,7 +2,7 @@ This simple program is aimed to apply the finite distance approximation to the s
 ## Finite distance approxiamtion
 Suppose that we want to solve the diffusion equation
 
-$$\frac{∂ u}{∂\tau}=\frac{∂^2 u}{∂ x^2}$$,
+$$\frac{∂ u}{∂\tau}=\frac{∂^2 u}{∂ x^2},$$
 
 with initial conditions 
 
